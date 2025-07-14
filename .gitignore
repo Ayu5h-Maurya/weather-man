@@ -1,0 +1,16 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+venv/
+
+# Data and plots
+data/
+visuals/
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+.vscode
