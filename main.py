@@ -1,6 +1,8 @@
 from src.api_handler import fetch_weather
 from src.data_processor import process_weather_data
 from src.plotter import plot_weather
+from tkinter import Tk
+from src.gui import WeatherApp
 
 def main():
     city = input("Enter a city name: ")
@@ -15,3 +17,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    root = Tk()
+    app = WeatherApp(root)
+    root.mainloop()
